@@ -1,23 +1,235 @@
 <!DOCTYPE html>
 <html>
-<style>
-h1{
-  font: 20px Montserrat, sans-serif;
-  color: #1abc9c;
-}
-</style>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/bulma.css' />
-  </head>
-  <body>
-    <div class="title">
-      <h3> Pom </h3>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <h1 class>HELLO</h1>
+    <link rel='stylesheet' href='/stylesheets/loading.css' />
+    <link rel='stylesheet' href='/stylesheets/pie.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
+    <link rel='stylesheet' href='/stylesheets/page.css' />
+    <script> src="/javascripts/jquery.js"</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+  <body onload="myFunction()" data-offset="50" data-target="#side-nav" data-spy="scroll">
+
+    <div id="loader">
+      <div class="container-fluid text-center bg-1">
+      <section class="intro vertical-scrolling">
+      <div class="content">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
       </div>
+      </section>
+      </div>
+    </div>
+
+  <div style="display:none;" id="myDiv">
+    <!-- nav -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+    </div>
     <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#sce1">Hello</a></li>
+          <li><a href="#sce2">Introduce</a></li>
+          <li><a href="#sce3">My skill</a></li>
+          <li><a href="#sce4">Event</a></li>
+          <li><a href="#sce5">Work</a></li>
+          <li><a href="#sce6">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+    <!--nav -->
+    <div id="sce1" class="container-fluid text-center bg-1">
+      <section class="intro vertical-scrolling">
+        <div class="content animate-bottom">
+          <h1>HELLO</h1>
+          <h2>I'm Pom</h2>
+          <h3>This is my portfolio</h3>
+        </div>
+      </section>
+    </div>
+    
+    <div id="sce2" class="container-fluid text-center bg-2 ">
+      <section class="intro vertical-scrolling">
+        <div class="content">
+          <a2>Introduce</a2></br>
+          <img src="/images/throll.jpeg" class="img-responsive img-circle margin" style="display:inline" width="200" height="200">
+          </br>
+          <a1>I'am studuing at thammasat university.</br> My major was computer-science. </a1>
+        </div>
+      </section>
+    </div>
+
+    <div id="sce3" class="container-fluid text-center bg-1 ">
+      <section class="intro vertical-scrolling">
+      <div class="content">
+      <h2>My Skills</h2></br>
+      <center>
+        <div id="SkillBox">
+          <div class="SkillBar">
+            <div id="Skill-HTML"> 
+              <span class="Skill-Area ">HTML</span>
+              <span class="SkillBox">Skilled</span>
+            </div>
+          </div>
+          
+          <div class="SkillBar">
+            <div id="Skill-CSS">
+              <span class="Skill-Area ">CSS</span>
+              <span class="SkillBox">Skilled</span>
+            </div>
+          </div>
+
+          <div class="SkillBar">
+            <div id="Skill-jQuery">
+              <span class="Skill-Area ">jQuery</span>
+              <span class="SkillBox">Beginner</span>
+            </div>
+          </div>
+          
+          <div class="SkillBar">
+            <div id="Skill-JS">
+              <span class="Skill-Area ">Javascript</span>
+              <span class="SkillBox">Intermediate</span>
+            </div>
+          </div>
+          
+            <div class="SkillBar">
+            <div id="Skill-C">
+              <span class="Skill-Area ">C/C++</span>
+              <span class="SkillBox">Skillful</span>
+            </div>
+          </div>
+          
+            <div class="SkillBar">
+            <div id="Skill-JAVA">
+              <span class="Skill-Area ">JAVA</span>
+              <span class="SkillBox">Skillful</span>
+            </div>
+          </div>
+          
+            <div class="SkillBar">
+            <div id="Skill-PHP">
+              <span class="Skill-Area ">PHP</span>
+              <span class="SkillBox">Skilled</span>
+            </div>
+          </div>
+          
+            <div class="SkillBar">
+            <div id="Skill-SQL">
+              <span class="Skill-Area ">SQL</span>
+              <span class="SkillBox">Talented</span>
+            </div>
+          </div>
+          
+        </div>
+        </center>
+      </div>
+      </section>
+    </div>
+      
+
+      <div id="sce4" class="container-fluid text-center bg-2">
+        <section class="intro vertical-scrolling">
+        <div class="content">
+        <h2>Event</h2>
+          <div class="row">
+          
+            <div class="col-sm-4">
+              <img src="/images/Icpc.png" class="img-responsive" style="width:100%" alt="Image">
+                <div class="w3-container w3-center">
+                  <p>ACM-IPCP Online and Loacl 2015</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+              <img src="/images/acm-icpc.png" class="img-responsive" style="width:200%" alt="Image">
+              <p>ACM-IPCP Online and Loacl 2016</p>
+            </div>
+
+            <div class="col-sm-4">
+              <img src="/images/3tech.jpg" class="img-responsive" style="width:100%" alt="Image">
+              <p>3 techonlogies change world (IoT Blockchain Bigdata)</p>
+            </div>
+
+          </div>
+        </div>
+        </section>
+      </div>
+
+
+      <div id="sce5" class="container-fluid text-center bg-1">
+        <section class="intro vertical-scrolling">
+          <div class="content">
+            <h2>WORK</h2>
+          </div>
+        </section>
+      </div>
+
+      <div id="sce6" class="container-fluid text-center bg-2">
+        <section class="intro vertical-scrolling">
+          <div class="content ">
+            <h2>CONTACT</h2>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+
+<script>
+$(document).ready(function() {
+// Add scrollspy to <body>
+$('body').scrollspy({ target: ".navbar", offset: 50 });
+// Add smooth scrolling on all links inside the navbar
+    $("#myNavbar a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
+});
+var myv;
+
+function myFunction() {
+    myv = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+}
+      </script>
   </body>
 </html>

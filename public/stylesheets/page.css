@@ -1,0 +1,93 @@
+body {
+    position: relative;
+}
+
+#page-wrap {
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#intro {
+    height: 90vh;
+}
+
+.bg-1 {
+    background-color: #000000;
+}
+
+.bg-2 {
+    background-color: #F0F0FF;
+}
+
+section {
+    width: 100%;
+    padding: 10% 25%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 200px;
+    color: #48D1CC;
+}
+
+h2 {
+    font-size: 100px;
+    color: #40E0D0
+}
+
+h3 {
+    font-size: 40px;
+    color: #AFEEEE;
+}
+
+a1 {
+    font-size: 30px;
+    color: #000000;
+}
+
+a2 {
+    font-size: 100px;
+    color: #000000;
+}
+
+
+/* Add animation to "page content" */
+
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
