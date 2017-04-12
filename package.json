@@ -17,6 +17,7 @@
     "express": "^4.14.1",
     "fullpage.js": "^2.9.4",
     "jquery": "^3.2.1",
+    "jquery-lazyload": "^1.9.7",
     "live-server": "^1.2.0",
     "morgan": "^1.7.0",
     "nodemon": "^1.11.0",
