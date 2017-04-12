@@ -21,19 +21,25 @@ body {
 }
 
 .sec1 {
-    background-image: url(https://secure.static.tumblr.com/ee6156055ea651c2ee47d044f6eeac9b//IO7nu3qxh/tumblr_static_tumblr_static__640.gif);
+    background-image: url("/images/sec1.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sec3 {
-    background-image: url(https://media.giphy.com/media/1xawnFRPNf9g4/giphy.gif);
+    background-image: url("/images/sec3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec4 {
+    background-image: url("/images/sec4.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .sec6 {
-    background-image: url(https://media.giphy.com/media/q5DTF6fjIMF7a/giphy.gif);
+    background-image: url("/images/sec6.gif");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -54,17 +60,17 @@ section {
 
 h1 {
     font-size: 200px;
-    color: #48D1CC;
+    color: #FFA500;
 }
 
 h2 {
     font-size: 100px;
-    color: #40E0D0
+    color: #DAA520;
 }
 
 h3 {
     font-size: 40px;
-    color: #AFEEEE;
+    color: #FFD700;
 }
 
 a1 {
