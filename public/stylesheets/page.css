@@ -13,35 +13,57 @@ body {
 }
 
 #intro {
-    height: 90vh;
+    height: 90%;
 }
 
 .bg-1 {
     background-color: #000000;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .sec1 {
     background-image: url("/images/sec1.gif");
-    background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .sec3 {
     background-image: url("/images/sec3.gif");
-    background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .sec4 {
     background-image: url("/images/sec4.gif");
-    background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 .sec6 {
     background-image: url("/images/sec6.gif");
-    background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 section {
